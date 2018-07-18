@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Loan
+comment0.text=\n\ The\ Loan\ class\ represents\ single\ loan\ record\ in\ a\ library\ system.\n\n\ @author\ (LO,KE-HSIN)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=user\ book\ expiryDate
+comment1.target=Loan(Users,\ Books,\ java.lang.String)
+comment1.text=\n\ Create\ a\ single\ loan\ record\ with\ a\ given\ user,\ book\ and\ expiry\ date\n
+comment2.params=
+comment2.target=Users\ getUser()
+comment2.text=\n\ @return\ the\ user\ \n
+comment3.params=
+comment3.target=Books\ getBook()
+comment3.text=\n\ @return\ the\ book\n
+comment4.params=
+comment4.target=java.lang.String\ getExpiryDate()
+comment4.text=\n\ @return\ the\ expiry\ date\n
+numComments=5

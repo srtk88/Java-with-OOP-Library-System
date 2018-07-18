@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Loans
+comment0.text=\n\ The\ Loans\ class\ represents\ multiple\ loan\ records\ in\ a\ library\ system.\n\n\ @author\ (LO,KE-HSIN)\n\ @version\ (Assignment\ 2017.11.24)\n
+comment1.params=
+comment1.target=Loans()
+comment1.text=\n\ Constructor\ for\ the\ loan\ files.\n
+comment2.params=users\ books\ expiryDate
+comment2.target=void\ borrow(Users,\ Books,\ java.lang.String)
+comment2.text=\n\ Write\ the\ record\ for\ a\ user\ to\ borrow\ a\ book\ \n\ @param\ users,books\ The\ users\ to\ borrow\n\ @param\ books\ The\ books\ to\ borrow\n\ @param\ expiryDate\ The\ expiryDate\ to\ borrow\n\ @throws\ IllegalArgumentException\ when\ users\ and\ books\ are\ null.\n
+comment3.params=users\ books
+comment3.target=void\ returnBook(Users,\ Books)
+comment3.text=\n\ Remove\ a\ record\ for\ a\ user\ to\ borrow\ a\ book\n\ @param\ users,books\ The\ users\ to\ return\n\ @param\ books\ The\ books\ to\ return\n\ @throws\ IllegalArgumentException\ when\ the\ user\ has\ not\ borrowed\ the\ book.\n
+comment4.params=users
+comment4.target=int\ countBooksOfUsers(Users)
+comment4.text=\nCount\ the\ total\ number\ of\ books\ for\ a\ user\ to\ borrow\ a\ book\n@param\ users\ The\ user\nthrows\ IllegalArgumentException\ when\ the\ users\ is\ null\n
+comment5.params=currentDate
+comment5.target=java.util.ArrayList\ getOverdueItems(java.lang.String)
+comment5.text=\nReturn\ all\ the\ overdue\ books\ along\ with\ the\ users\u2019\ username\ and\ firstname.\n@param\ currentDate\ Today's\ date\n@return\ list\ of\ book's\ description\ along\ with\ the\ username\ and\ firstname\ of\ the\ user\ who\ borrow\ the\ book\n
+comment6.params=
+comment6.target=java.util.ArrayList\ getPopularBooks()
+comment6.text=\nReturn\ those\ books\ that\ are\ borrowed\ by\ more\ than\ one\ User\n@return\ the\ popular\ books\ which\ are\ borrowed\ by\ more\ than\ one\ User\n
+comment7.params=book
+comment7.target=BorrowerInformation\ getBorrower(Books)
+comment7.text=\nreturn\ the\ firstname,\ surname\ and\ email\ address\ name\ of\ a\ borrower\ of\ a\ given\ book.\n@param\ books\ The\ book\ that\ user\ borrow\n@return\ the\ users\ information\n
+numComments=8

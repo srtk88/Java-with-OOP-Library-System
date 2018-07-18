@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=UserList
+comment0.text=\nA\ class\ to\ hold\ details\ of\ user\ files.\nThis\ version\ can\ play\ the\ files.\n\ @author\ (LO,KE-HSIN)\n\ @version\ (Assignment\ 2017.11.24)\n
+comment1.params=
+comment1.target=UserList()
+comment1.text=\n\ Constructor\ for\ the\ user\ files.\n
+comment2.params=users
+comment2.target=void\ add(Users)
+comment2.text=\nAdd\ a\ user\ to\ the\ collection\n@param\ users\ The\ users\ to\ be\ added\ \n@throws\ IllegalArgumentException\ when\ the\ users\ is\ null\n
+comment3.params=
+comment3.target=int\ size()
+comment3.text=\nReturn\ the\ number\ of\ files\ in\ the\ collection.\n@return\ The\ number\ of\ files\ in\ the\ collection.\n
+comment4.params=username
+comment4.target=Users\ search(java.lang.String)
+comment4.text=\nSearching\ the\ users\ from\ the\ users\ files\ By\ matching\ the\ username\ \n@param\ username\ The\ username\ to\ search\ the\ book\n@throws\ IllegalArgumentException\ when\ the\ username\ is\ null\ or\ empty\n
+comment5.params=firstname
+comment5.target=void\ remove(java.lang.String)
+comment5.text=\nRemave\ a\ user\ from\ the\ collection\ by\ matching\ the\ firstname\ of\ the\ collection.\nIf\ there\ is\ more\ than\ one\ user,\ then\ the\ error\ will\ occur\n@param\ firstname\ The\ firstname\ of\ the\ collection\ to\ be\ removed\n@throws\ IllegalArgumentException\ when\ one\ of\ two\ condition\ happen\:not\ found\ or\nmultiple\ found\ of\ the\ same\ firstname\ of\ the\ collection\n
+numComments=6

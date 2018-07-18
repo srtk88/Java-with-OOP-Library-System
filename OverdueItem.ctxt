@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=OverdueItem
+comment0.text=\n\ The\ OverdueItem\ class\ hold\ the\ details\ of\ overdue\ items\ in\ a\ library\ system.\n\n\ @author\ (Lo,Ke-HSIN)\n\ @version\ (Assignment\ 2017.11.24)\n
+comment1.params=book\ username\ firstname
+comment1.target=OverdueItem(Books,\ java.lang.String,\ java.lang.String)
+comment1.text=\n\ Constructor\ for\ the\ overdue\ items\n
+comment2.params=
+comment2.target=Books\ getBook()
+comment2.text=\n\ @return\ the\ book\n
+comment3.params=
+comment3.target=java.lang.String\ getFirstname()
+comment3.text=\n\ @return\ the\ firstname\ \n
+comment4.params=
+comment4.target=java.lang.String\ getUsername()
+comment4.text=\n\ @return\ the\ username\n
+numComments=5

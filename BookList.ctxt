@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=BookList
+comment0.text=\nA\ class\ to\ hold\ details\ of\ book\ files.\nThis\ version\ can\ play\ the\ files.\n\n\ @author\ (LO,KE-HSIN)\n\ @version\ (Assignment\ 2017.11.20)\n
+comment1.params=
+comment1.target=BookList()
+comment1.text=\n\ Constructor\ for\ the\ book\ files.\n
+comment2.params=books
+comment2.target=void\ add(Books)
+comment2.text=\nAdd\ a\ book\ to\ the\ collection\n@param\ books\ The\ books\ to\ be\ added\ \n@throws\ IllegalArgumentException\ when\ the\ books\ is\ null\n
+comment3.params=
+comment3.target=int\ size()
+comment3.text=\nReturn\ the\ number\ of\ files\ in\ the\ collection.\n@return\ The\ number\ of\ files\ in\ the\ collection.\n
+comment4.params=keyword
+comment4.target=Books\ search(java.lang.String)
+comment4.text=\nSearching\ the\ books\ from\ the\ book\ files\ By\ matching\ the\ keyword\ with\ title,author,publisher\ or\ publication\ date\n@param\ keyword\ The\ keyword\ to\ search\ the\ book\n@throws\ IllegalArgumentException\ when\ the\ keyword\ is\ null\ or\ empty\n
+comment5.params=title
+comment5.target=void\ remove(java.lang.String)
+comment5.text=\nRemave\ a\ book\ from\ the\ list\ by\ matching\ the\ title\ of\ the\ book\ If\ there\ is\ mare\ than\ one\ book,\ then\ the\ error\ will\ occur\n@param\ title\ The\ title\ of\ the\ book\ to\ be\ removed\n@throws\ IllegalArgumentException\ when\ \ one\ of\ two\ condition\ happen\:not\ found\ or\nmultiple\ found\ of\ the\ same\ title\ of\ the\ book\n
+numComments=6
